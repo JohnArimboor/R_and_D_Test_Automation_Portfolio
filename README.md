@@ -1,9 +1,9 @@
 # Pulsed-Sweep-Automation-using-PyVISA-library-Python
 
 
-Project Overview:- This project is aimed to fully automate the interaction with an SMU for performing pulsed sweeps. It uses SCPI commands over a GPIB/USB connection to fully initialize the instrument, perform highly controlled pulsed current sweeps and securely log the data
+Project Overview:- This project is aimed to fully automate the interaction with an SMU for performing pulsed sweeps. It uses SCPI commands over a GPIB/USB connection to fully initialize the instrument, perform highly controlled pulsed current sweeps and securely log the data produced from the instrument.
 
-Purpose:-The manual process of running measurements via the instrument's front panel is slow and prone to human error.By pulling safety limits from an external text file (Config_File.txt), this code could engineer a fully automated test station that performs pulsed sweeps accroding to the user's customzied paramters for each devie.
+Purpose:-The manual process of running measurements via the instrument's front panel is slow and prone to human error.By pulling safety limits from an external text file (Config_File.txt), this code could engineer a fully automated test station that performs pulsed sweeps accroding to the user's customzied parameters for each device.
 
 Key Functions Used:
 1. pyvisa: The library used for a connection with the SMU test instrument. 
