@@ -1,8 +1,8 @@
 # Wafer-coordinate-transformation-script-using-Pandas--Python
 
-Project Overview:-Compnaies usually handle large sets of data for automated semiconductor or quantum wafer testing processes.This code attempts to convert file containing the theoretical layout, the one sent from the design engineers consisting information of thousands of chips and transforming it into real-world physical motor coordinates for a testing stage.
+Project Overview:-Compnaies usually handle large sets of data for automated semiconductor or quantum wafer testing processes.This code attempts to convert file containing the theoretical layout, the one sent from the design engineers consisting information of thousands of chips and integerate a coloumn of real-world physical motor coordinates for obtaining a 3D map of the wafer tested. 
 
-Solution aimed at:-When a physical wafer is loaded onto a test machine, its physical position never perfectly matches the digital design file. If a wafer has thousands of chips (like a 40,000-qubit architecture), an engineer cannot manually align the machine to each one. This tool solves that by allowing the user to align the machine to just one reference chip. The script then instantly calculates the exact motor coordinates needed to find every other chip on the wafer.
+Solution aimed at:-When a physical wafer is loaded onto a test machine, its physical position never perfectly matches the digital design file. If a wafer has thousands of chips , an engineer cannot manually align the machine to each one. This tool solves that by allowing the user to align the machine to just one reference chip. The script then instantly calculates the exact motor coordinates needed to find every other chip on the wafer.
 
 Key Functions Used:
 1. pd.read_csv() & to_csv(): Uses the Pandas library to instantly load and export massive datasets (like a 5000+ row Excel sheet) without slowing down the computer.
