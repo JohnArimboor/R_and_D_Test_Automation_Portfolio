@@ -1,6 +1,6 @@
 # Graphical-User-Interface-GUI-dashboard-Python-tkinter
 
-Project Overview:- In an R&D lab, physicists and hardware engineers need reliable tools to run tests without having to dig into messy backend code and have mutliple GUIs for hardware interaction.This project uses tkinter library of python programming language to build a Graphical User Interface (GUI) dashboard capable of accomodating mutiple user defined test operations.It generates a digital control panel for automated wafer testing, d simulate the alignment of a motorized stage and the execution of optoelectronic sweeps.
+Project Overview:- In an R&D lab, physicists and hardware engineers need reliable tools to run tests without having to dig into messy backend code and have mutliple GUIs for hardware interaction.This project uses tkinter library of python programming language to build a Graphical User Interface (GUI) dashboard capable of accomodating mutiple user defined test operations.It generates a digital control panel for automated wafer testing, simulate the alignment of a motorized stage and the execution of optoelectronic sweeps.
 
 Key Functions Used:
 1. Object Oriented Architecture (class Wafertester): The entire GUI is wrapped in a single class. This is crucial for scalability, allowing other engineers to easily add new instruments or frames later without breaking the code.
