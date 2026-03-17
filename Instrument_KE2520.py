@@ -112,8 +112,16 @@ def Sweep_KE2520(KE2520,ConfigKE2520):
 
     
 #Code for automation of pulsed sweep automation 
-
-    
- 
+for device_key in ConfigKE2520.keys():
+        if "DUT" in device_key: # The rows are named DUT_1, DUT_2, etc.
+            # Initialize for this specific device
+            Init_KE2520(KE2520, ConfigKE2520, device_key)
+            
+            # Run the sweep and save data
+            Sweep_KE2520(KE2520, device_key)
+            
+    # Clean up
+    KE2520.close()
+    print("All tests completed successfully.")
 
 
